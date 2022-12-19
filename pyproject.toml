@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "contrapi"
+version = "0.1.0"
+description = "api contraloria"
+authors = ["ticbox"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+fastapi = {extras = ["all"], version = "^0.88.0"}
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
